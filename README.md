@@ -1,4 +1,4 @@
-# Script to find orphaned Zotero attachmants
+# Script to find orphaned Zotero attachments
 Often Zotero leaves files attached to none of the entries in the database due to connectivity issues during sync or other problems. This script finds these entries and prins theire names to stdout.
 
 ## Usage
