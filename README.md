@@ -1,9 +1,8 @@
 # Script to find orphaned Zotero attachments
-Often Zotero leaves files attached to none of the entries in the database due to connectivity issues during sync or other problems. This script finds these entries and prins theire names to stdout.
+Zotero Often leaves files attatched to none of the database entries (due to connectivity issues during sync or other problems). This script finds these entries and prints their names to stdout.
 
 ## Usage
-The script only prints the orphaned dirnames. To actually purge them, run in the zotero/storage directory
-
+The script only prints the orphaned directory names. To actually purge them, run in the zotero/storage directory
 `python path-to-script/ZoteroCleanOrphanedFiles.py | xargs rm -r`
 
 ## History
